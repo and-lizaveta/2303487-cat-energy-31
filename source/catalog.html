@@ -6,21 +6,24 @@
   <title>Каталог Cat Energy</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="favicon.ico"><!-- 32×32 -->
+  <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
   <script src="scripts/index.js" defer></script>
 </head>
 
 <body class="page__body">
   <header class="main-header">
-    <div class="main-header__logo">
-      <a class="main-header__logo-link" href="index.html" aria-current="page">
-        <img class="main-header__graphic-logo" src="#" width="33" height="38" alt="Графический логотип Cat Energy">
-        <img class="main-header__text-logo" src="#" width="33" height="38" alt="Cat Energy">
+    <div class="main-header__logo logotype">
+      <a class="logotype__link" href="index.html" aria-current="page">
+        <img class="logotype__graphic-logo" src="#" width="33" height="38" alt="Графический логотип Cat Energy">
+        <img class="logotype__text-logo" src="#" width="33" height="38" alt="Cat Energy">
       </a>
     </div>
     <nav class="main-header__main-nav main-nav">
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
       <div class="main-nav__wrapper">
-        <ul class="main-nav__list nav-list">
+        <ul class="nav-list">
           <li class="nav-list__item">
             <a class="nav-list__link" href="#">
               Главная
@@ -46,8 +49,8 @@
         <h1 class="catalog__title">Каталог продукции</h1>
         <ul class="catalog__list">
           <li class="catalog__item card">
-            <a class="catalog__item-link" href="#"><img class="card__image" src="#" width="68" height="86" alt="Cat Energy PRO 500 г вкус курица"></a>
-            <a class="catalog__item-link" href="#">
+            <a class="card__link" href="#"><img class="card__image" src="#" width="68" height="86" alt="Cat Energy PRO 500 г вкус курица"></a>
+            <a class="card__link" href="#">
               <h2 class="card__title">Cat Energy PRO 500 г</h2>
             </a>
             <ul class="card__list">
@@ -71,8 +74,8 @@
             </div>
           </li>
           <li class="catalog__item card">
-            <a class="catalog__item-link" href="#"><img class="card__image" src="#" width="68" height="86" alt="Cat Energy PRO 1000 г вкус курица"></a>
-            <a class="catalog__item-link" href="#">
+            <a class="card__link" href="#"><img class="card__image" src="#" width="68" height="86" alt="Cat Energy PRO 1000 г вкус курица"></a>
+            <a class="card__link" href="#">
               <h2 class="card__title">Cat Energy PRO 1000 г</h2>
             </a>
             <ul class="card__list">
@@ -96,8 +99,8 @@
             </div>
           </li>
           <li class="catalog__item card">
-            <a class="catalog__item-link" href="#"><img class="card__image" src="#" width="68" height="86" alt="Cat Energy PRO 500 г вкус рыба"></a>
-            <a class="catalog__item-link" href="#">
+            <a class="card__link" href="#"><img class="card__image" src="#" width="68" height="86" alt="Cat Energy PRO 500 г вкус рыба"></a>
+            <a class="card__link" href="#">
               <h2 class="card__title">Cat Energy PRO 500 г</h2>
             </a>
             <ul class="card__list">
@@ -121,8 +124,8 @@
             </div>
           </li>
           <li class="catalog__item card">
-            <a class="catalog__item-link" href="#"><img class="card__image" src="#" width="68" height="86" alt="Cat Energy PRO 1000 г вкус рыба"></a>
-            <a class="catalog__item-link" href="#">
+            <a class="card__link" href="#"><img class="card__image" src="#" width="68" height="86" alt="Cat Energy PRO 1000 г вкус рыба"></a>
+            <a class="card__link" href="#">
               <h2 class="card__title">Cat Energy PRO 1000 г</h2>
             </a>
             <ul class="card__list">
@@ -146,8 +149,8 @@
             </div>
           </li>
           <li class="catalog__item card">
-            <a class="catalog__item-link" href="#"><img class="card__image" src="#" width="68" height="86" alt="Cat Energy PRO 500 г вкус гречка"></a>
-            <a class="catalog__item-link" href="#">
+            <a class="card__link" href="#"><img class="card__image" src="#" width="68" height="86" alt="Cat Energy PRO 500 г вкус гречка"></a>
+            <a class="card__link" href="#">
               <h2 class="card__title">Cat Energy Slim 500 г</h2>
             </a>
             <ul class="card__list">
@@ -171,8 +174,8 @@
             </div>
           </li>
           <li class="catalog__item card">
-            <a class="catalog__item-link" href="#"><img class="card__image" src="#" width="68" height="86" alt="Cat Energy PRO 1000 г вкус гречка"></a>
-            <a class="catalog__item-link" href="#">
+            <a class="card__link" href="#"><img class="card__image" src="#" width="68" height="86" alt="Cat Energy PRO 1000 г вкус гречка"></a>
+            <a class="card__link" href="#">
               <h2 class="card__title">Cat Energy Slim 1000 г</h2>
             </a>
             <ul class="card__list">
@@ -196,8 +199,8 @@
             </div>
           </li>
           <li class="catalog__item card">
-            <a class="catalog__item-link" href="#"><img class="card__image" src="#" width="68" height="86" alt="Cat Energy Slim 500 г вкус рис"></a>
-            <a class="catalog__item-link" href="#">
+            <a class="card__link" href="#"><img class="card__image" src="#" width="68" height="86" alt="Cat Energy Slim 500 г вкус рис"></a>
+            <a class="card__link" href="#">
               <h2 class="card__title">Cat Energy Slim 500 г</h2>
             </a>
             <ul class="card__list">
@@ -294,10 +297,10 @@
       <h2 class="subscribe-form__title">Акции и новинки</h2>
       <p class="subscribe-form__description">Подпишитесь на наши новости и не пропустите ни одного предложения!
       </p>
-      <form class="subscribe-form__form" action="https://echo.htmlacademy.ru/" method="post">
+      <form class="subscribe-form__form form" action="https://echo.htmlacademy.ru/" method="post">
         <label class="visually-hidden" for="email">Ваш e-mail</label>
-        <input class="subscribe-form__form-input" type="email" id="email" name="user-email" placeholder="кuklachev@gmail.com" required>
-        <button class="button button-subscribe" type="submit">Подписаться</button>
+        <input class="form__input" type="email" id="email" name="user-email" placeholder="кuklachev@gmail.com" required>
+        <button class="button form__button" type="submit">Подписаться</button>
       </form>
     </section>
     <section class="office-location-map">
@@ -308,34 +311,34 @@
         <p class="office-location-map__description-city">Санкт-Петербург</p>
       </div>
     </section>
-    <footer class="main-footer">
-      <div class="main-footer__wrapper">
-        <div class="main-footer__logo">
-          <a class="main-footer__logo-link" href="#">
-            <img class="main-footer__text-logo" src="#" width="128" height="24" alt="Cat Energy">
-          </a>
-        </div>
-        <div class="main-footer__socials socials">
-          <ul class="socials__list">
-            <li class="socials__item">
-              <a class="socials__link socials__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
-            </li>
-            <li class="socials__item">
-              <a class="socials__link socials__link--youtube" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
-            </li>
-            <li class="socials__item">
-              <a class="socials__link socials__link--telegram" href="https://t.me/htmlacademy">Мы в Телеграме</a>
-            </li>
-          </ul>
-        </div>
-        <div class="main-footer__developer developer">
-          <b class="developer__text">HTML Academy</b>
-          <a class="developer__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-          <img src="#" width="27" height="34" alt="HTML Academy">
-        </div>
-      </div>
-    </footer>
   </main>
+  <footer class="main-footer">
+    <div class="main-footer__wrapper">
+      <div class="main-footer__logo logotype">
+        <a class="logotype__link" href="#">
+          <img class="logotype__text-logo" src="#" width="128" height="24" alt="Cat Energy">
+        </a>
+      </div>
+      <div class="main-footer__socials">
+        <ul class="socials__list">
+          <li class="socials__item">
+            <a class="socials__link socials__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link socials__link--youtube" href="https://www.youtube.com/user/htmlacademyru">Мы в Ютубе</a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link socials__link--telegram" href="https://t.me/htmlacademy">Мы в Телеграме</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-footer__developer developer">
+        <a class="developer__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy
+          <img src="#" width="27" height="34" alt="Логотип HTML Academy">
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
