@@ -1,0 +1,21 @@
+.office-location-map {
+  background-color: $bg-basic-grey;
+  min-width: 280px;
+  padding: 26px 20px;
+  margin: 0 auto;
+}
+
+.office-location-map__title {
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.office-location-map__description-adress,
+.office-location-map__description-city {
+  font-family: $secondary-font;
+  font-size: 14px;
+  line-height: 20px;
+}

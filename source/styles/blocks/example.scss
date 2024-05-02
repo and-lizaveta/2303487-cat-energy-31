@@ -1,0 +1,21 @@
+.example {
+  background-color: $bg-basic-grey;
+  padding: 0 20px;
+  min-width: 280px;
+  margin: 0 auto;
+}
+
+.example__title {
+  font-family: $primary-font;
+  font-size: 36px;
+  line-height: 40px;
+  color: $title-color;
+}
+
+.example__description {
+  font-family: $secondary-font;
+  font-size: 14px;
+  line-height: 18px;
+  color: $base-color-text-grey;
+  margin: 0;
+}
