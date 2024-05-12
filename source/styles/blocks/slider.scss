@@ -2,6 +2,28 @@
   position: relative;
 }
 
+.slider__compare {
+  display: grid;
+  grid-template-columns: 140px 140px;
+  width: 280px;
+}
+
+.slider__compare--before {
+  width: 140px;
+  overflow: hidden;
+  grid-column: 1 / 1;
+}
+
+.slider__compare--after {
+  grid-column: 2 / 2;
+  width: 140px;
+  overflow: hidden;
+}
+
+.slider__item--thin {
+  transform: translate(-50%);
+}
+
 .slider__toggle {
   cursor: pointer;
   background-color: #666666;
@@ -13,7 +35,7 @@
   display: block;
   position: absolute;
   top: 0;
-  left: -2px;
+  left: 140px;
 
   &::before {
     content: "";
